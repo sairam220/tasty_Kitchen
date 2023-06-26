@@ -1,0 +1,209 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f8fafc;
+  position: sticky;
+  top: 0;
+  opacity: 1;
+  z-index: 1;
+  padding-top: 0.5%;
+  padding-bottom: 0.4%;
+}
+.logo-image {
+  margin-top: 8px;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+.LargeHeading1 {
+  display: block;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #f7931e;
+  margin-left: 4px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5%;
+}
+.logout-button {
+  height: 35px;
+  width: 120px;
+  background-color: orange;
+  color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  border-width: 0px;
+  margin-top: 15px;
+}
+.link-heading {
+  font-family: sans-serif;
+  margin-right: 10px;
+  font-size: 18px;
+  margin-top: 11px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-button {
+    display: none;
+  }
+  .link-heading {
+    display: none;
+  }
+  .link-heading1 {
+    display: none;
+  }
+}
+
+.link-heading1 {
+  font-family: sans-serif;
+  margin-right: 10px;
+  font-size: 18px;
+  margin-top: 11px;
+  color: orange;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-heading-mobile {
+  font-family: sans-serif;
+  margin-right: 10px;
+  font-size: 18px;
+  margin-top: 11px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-heading-mobile-1 {
+  font-family: sans-serif;
+  margin-right: 10px;
+  font-size: 18px;
+  margin-top: 11px;
+  color: orange;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.MainHeading {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f7931e;
+  text-decoration: none;
+}
+
+.MobileNavigation {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .Navigation {
+    display: none;
+  }
+  .MobileNavigation {
+    display: flex;
+    align-items: center;
+    position: absolute right;
+    z-index: 1;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    left: 0;
+    top: 0;
+  }
+  .Hamburger {
+    position: absolute;
+    right: 3%;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 767px) {
+  .MobileNavigation {
+    display: flex;
+    align-items: center;
+    position: absolute right;
+    z-index: 1;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    left: 0;
+    top: 0;
+  }
+  .Hamburger {
+    position: absolute;
+    right: 3%;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .NavBar nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 50%;
+    min-height: 100vh;
+    background: #f8fafc;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-bottom: 6px;
+    transition: width 0.5s;
+    -moz-box-shadow: 1px 1px 5px 2px #ccc;
+    -webkit-box-shadow: 1px 1px 5px 2px #ccc;
+    box-shadow: 1px 1px 5px 2px #ccc;
+    border-top-left-radius: 5px;
+  }
+  .NavBar nav ul li {
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 25px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-weight: 500;
+  }
+  .NavBar {
+    opacity: 1;
+  }
+  .NavBar a:hover {
+    border-bottom: none;
+    color: green;
+  }
+}
+.LoginButton1 {
+  height: 30px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  background-color: #f7931e;
+  border: none;
+  align-self: stretch;
+  color: #ffffff;
+  margin-top: 17px;
+}
+.mobile-container {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
